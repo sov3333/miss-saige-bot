@@ -20,7 +20,7 @@ openai.apiKey = process.env.API_KEY;
 
 // Fine-tune the language model on the questions and answers
 const fineTuneModel = async () => {
-  const response = await openai.Model.create(
+  const response = await openai.models.create(
     'gpt-3',
     {
       prompt: questions,
@@ -43,7 +43,7 @@ const fineTuneModel = async () => {
 
 // Use the fine-tuned model to generate a response to a prompt
 const generateResponse = async (prompt, modelId) => {
-    const response = await openai.Completion.create(
+    const response = await openai.createCompletion(
         {
             model: modelId,
             prompt: prompt,
