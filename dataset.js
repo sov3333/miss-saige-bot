@@ -1,0 +1,35 @@
+const questions = [
+    "What is the name of this project?",
+    "What is this project about?",
+    "What is the GOLD token?",
+    "What is the SILVER token?",
+    "What is the difference between the GOLD and SILVER tokens?",
+    "Where can I buy GOLD?",
+    "Where can I buy SILVER?",
+    "What is your website link?",
+    "Where can I find out more about this project?",
+    "What's ADV's Twitter?",
+    "What is the link to the NFTs on opensea?",
+    "Where can I find out more about the ADV NFTs?",
+    "What is the ADV NFT used for?",
+    "What are the main features of the project?",
+    "How can I get involved with the project?",
+];
+
+const answers = [
+    "The name of this project is Adv3nture.",
+    "Adv3nture is an ecosystem of composable tokens and NFTs used across our community created games. Adv3nture also provides dev tools and building blocks for developers to easily build open and interoperable GameFi products.",
+    "GOLD is a rare in-game currency used in the Adv3nture ecosystem. Vaulting GOLD to ibGOLD also gives voting rights in ADV DAO.",
+    "SILVER is an inflationary in-game currency used in the Adv3nture ecosystem. 3rd-party games can integrate SILVER token ecosystem into their game with emissions provided by ADV DAO.",
+    "GOLD and SILVER are both in-game tokens. More SILVER can be minted if decided by ADV DAO. Main difference is in issuance, and vaulted GOLD has voting rights in the DAO, while SILVER does not.",
+    "You can buy GOLD on the Aribtrum network, on DEXs such as Uniswap",
+    "You can buy SILVER on the Aribtrum network, on DEXs such as Uniswap",
+    "Adv3nture's website is: https://adv3nture.xyz/.",
+    "Find out more about Adv3nture on our Website (https://adv3nture.xyz/) and Twitter (https://twitter.com/adv3nturers)",
+    "Adv3nture's twitter is: https://twitter.com/adv3nturers",
+    "OpenSea links: ADV (https://opensea.io/collection/adventurer-eth), aADV (https://opensea.io/collection/adv3nturers), Vanilla Raiders (https://opensea.io/collection/vanilla-raiders)",
+    "Find out more about Adv3nture NFTs on our Website (https://adv3nture.xyz/)",
+    "The ADV NFTs are meant to be building blocks for any games in the ecosystem. E.g. attribute stats of your NFT can be used to create in-game characters.",
+    "The main features of the project include collaborative NFT games, and composable tools for buildling open and interoperable GameFi.",
+    "You can get involved with the project by contributing code on GitHub, submitting bug reports, or providing feedback and suggestions."
+];
