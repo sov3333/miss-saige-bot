@@ -1,5 +1,24 @@
 # Miss Saige Bot
 
+## How
+
+To create a program in JavaScript that runs a Telegram bot using OpenAI fine-tuning to answer questions about a project, you will need to do the following:
+
+1. Install the required libraries:
+```
+npm install telegraf openai dotenv
+```
+
+2. Set up your .env file with your OpenAI API key and your Telegram bot token.
+
+3. Create a questions and answers array with the data you want to use to fine-tune the language model.
+
+4. Use the OpenAI API to fine-tune the language model on the questions and answers data.
+
+5. Use the fine-tuned model to generate responses to user messages.
+
+6. Set up a Telegraf bot to listen for user messages and generate responses using the fine-tuned model.
+
 ## Setup
 
 Install npm packages:
